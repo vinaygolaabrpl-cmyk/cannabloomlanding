@@ -1,0 +1,24 @@
+@use 'variables' as v;
+
+@mixin grid-3($gap: 18px) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: 1fr;
+
+  @media (min-width: v.$bp-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: v.$bp-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@mixin grid-4($gap: 16px) {
+  display: grid;
+  gap: $gap;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (min-width: v.$bp-md) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

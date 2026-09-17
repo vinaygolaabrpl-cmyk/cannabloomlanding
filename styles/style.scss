@@ -1,0 +1,90 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'components';
+@use 'sections';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: v.$font-base;
+  color: v.$text-dark;
+  background: v.$white;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.skip-link {
+  @include m.visually-hidden;
+
+  &:focus {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    width: auto;
+    height: auto;
+    padding: 8px 14px;
+    background: v.$primary-green;
+    color: v.$white;
+    border-radius: v.$radius-sm;
+    z-index: 1000;
+    clip: auto;
+  }
+}
+
+// ---- Scroll-reveal: sections fade/slide up once as they enter the viewport ----
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

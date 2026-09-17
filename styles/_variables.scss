@@ -1,0 +1,40 @@
+// Canna Blooms brand & layout tokens — tuned to match the CanRealm NY Shop
+// reference's proportions (container width, spacing, radius, type scale)
+// while keeping Canna Blooms' own two-color brand system.
+
+// ---- Colors (Canna Blooms brand only — no third accent colors) ----
+$primary-green: #2b6b46;   // Canna Blooms primary dark green
+$dark-green: #17311f;      // deepest green — dark sections, top bar, cards
+$green-mid: #234b30;       // one step lighter than dark-green, for card borders on dark bg
+$cream: #f7f5ef;           // light/cream background
+$white: #ffffff;
+$text-dark: #1c211d;
+$text-muted: #5c665e;
+$border-light: #e4e1d7;
+
+// ---- Layout ----
+$container-width: 1200px;
+$container-padding: 20px;
+
+// ---- Radius (restrained — CanRealm uses subtle rounding, not deep rounded cards) ----
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-pill: 999px;
+
+// ---- Spacing (compact, editorial rhythm) ----
+$space-section-y: 64px;
+$space-section-y-mobile: 40px;
+$space-header-gap: 12px;
+
+// ---- Shadow (subtle only) ----
+$shadow-card: 0 1px 2px rgba(20, 30, 22, 0.04), 0 1px 8px rgba(20, 30, 22, 0.05);
+
+// ---- Typography ----
+$font-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+// ---- Breakpoints ----
+$bp-sm: 560px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+
+$transition-base: all 0.18s ease;

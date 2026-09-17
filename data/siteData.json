@@ -1,0 +1,435 @@
+{
+  "site": {
+    "name": "Canna Blooms",
+    "shortName": "Canna Blooms",
+    "domain": "cannablooms.com",
+    "legalStrip": "21+ only. By continuing, you confirm you are 21 years of age or older.",
+    "licenseStrip": "Licensed by New York State • Open 7 Days a Week (Farmingville & Queens)",
+    "logo": {
+      "src": "/images/canna-blooms-logo.webp",
+      "alt": "Canna Blooms logo"
+    },
+    "phoneDisplay": "",
+    "email": "sales@cannablooms.com"
+  },
+  "seo": {
+    "title": "Canna Blooms | Licensed New York Cannabis Dispensary — Farmingville, Queens & Vestal",
+    "description": "Canna Blooms is a New York State licensed cannabis dispensary with locations in Farmingville, Queens and Vestal. Shop flower, edibles, vapes and accessories, and find your nearest store.",
+    "keywords": [
+      "Canna Blooms",
+      "cannabis dispensary New York",
+      "Farmingville dispensary",
+      "Queens dispensary",
+      "Vestal dispensary",
+      "licensed NY cannabis retailer",
+      "recreational dispensary Long Island"
+    ],
+    "ogTitle": "Canna Blooms — Licensed New York Cannabis Dispensary",
+    "ogDescription": "Find your nearest Canna Blooms location in Farmingville, Queens or Vestal. Licensed, New York State cannabis retail.",
+    "ogImage": "/images/canna-blooms-og.jpg",
+    "canonicalUrl": "https://www.cannablooms.com/locations",
+    "twitterCard": "summary_large_image",
+    "robots": "index, follow"
+  },
+  "header": {
+    "topBarLeft": "21+ only. Please consume responsibly. Keep out of reach of children.",
+    "topBarRight": "Licensed by New York State • 21+ • 3 NY Locations",
+    "eyebrow": "FARMINGVILLE • QUEENS • VESTAL",
+    "nav": [
+      {
+        "label": "Locations",
+        "href": "#store-locations"
+      },
+      {
+        "label": "Neighborhoods",
+        "href": "#neighborhoods"
+      },
+      {
+        "label": "Hours",
+        "href": "#hours"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "FARMINGVILLE • QUEENS • VESTAL",
+    "titleLine1": "Home of New York's",
+    "titleHighlight": "Trusted Neighborhood Dispensary",
+    "description": "Three licensed Canna Blooms locations across Long Island and the Southern Tier — Farmingville, Queens and Vestal.",
+    "ctaLabel": "Find Your Location",
+    "ctaTarget": "#store-locations"
+  },
+  "locations": [
+    {
+      "id": "farmingville",
+      "number": "01",
+      "name": "Farmingville",
+      "region": "Serving Suffolk County & Long Island",
+      "address": "2400 N Ocean Ave, Farmingville, NY 11738",
+      "phone": "",
+      "email": "sales@cannablooms.com",
+      "license": "",
+      "hours": {
+        "mainDays": "Mon–Sat 11AM–8PM",
+        "sunday": "Call store to confirm Sunday hours"
+      },
+      "deliveryHours": "",
+      "description": "Our flagship Farmingville showroom, featuring a curated selection of flower, edibles, vapes and accessories.",
+      "reviewsLabel": "",
+      "visitUrl": "https://www.cannablooms.com/locations/farmingville"
+    },
+    {
+      "id": "queens",
+      "number": "02",
+      "name": "Queens",
+      "region": "Serving Flushing, Bayside & Northeast Queens",
+      "address": "162-20 Northern Blvd, Queens, NY 11358",
+      "phone": "",
+      "email": "sales@cannablooms.com",
+      "license": "",
+      "hours": {
+        "mainDays": "Mon–Sat 11AM–8PM",
+        "sunday": "Call store to confirm Sunday hours"
+      },
+      "deliveryHours": "",
+      "description": "A convenient Northern Blvd storefront serving Flushing, Bayside and the surrounding Queens neighborhoods.",
+      "reviewsLabel": "",
+      "visitUrl": "https://www.cannablooms.com/locations/queens"
+    },
+    {
+      "id": "vestal",
+      "number": "03",
+      "name": "Vestal",
+      "region": "Serving Broome County & the Southern Tier",
+      "address": "4535 Vestal Road, Vestal, NY 13850",
+      "phone": "",
+      "email": "sales@cannablooms.com",
+      "license": "",
+      "hours": {
+        "mainDays": "Mon–Sat 11AM–7PM",
+        "sunday": "Call store to confirm Sunday hours"
+      },
+      "deliveryHours": "",
+      "description": "Our Southern Tier location on Vestal Road, bringing lab-tested New York cannabis to Broome County.",
+      "reviewsLabel": "",
+      "visitUrl": "https://www.cannablooms.com/locations/vestal"
+    }
+  ],
+  "ratingStrip": {
+    "reviews": "3,200+",
+    "reviewsLabel": "Customer Reviews",
+    "rating": "4.9",
+    "ratingLabel": "Average Rating",
+    "locations": "3",
+    "locationsLabel": "NY Locations",
+    "sinceLabel": "Independent Retailer Since",
+    "since": "2016"
+  },
+  "neighborhoods": {
+    "title": "Neighborhoods We Serve",
+    "intro": "Neighbors travel to us from right across the region. These are some of the communities closest to each store — the list is far from complete, and everyone is welcome wherever you're coming from.",
+    "footnote": "Don't see your town? You're still welcome — these lists are a starting point, not a boundary. Reach out to your nearest store and we'll help you plan the visit.",
+    "groups": [
+      {
+        "locationId": "farmingville",
+        "name": "Farmingville",
+        "region": "Suffolk County, Long Island",
+        "towns": [
+          "Farmingville",
+          "Holtsville",
+          "Selden",
+          "Medford",
+          "Centereach",
+          "South Setauket",
+          "Holbrook",
+          "Coram",
+          "Ronkonkoma",
+          "Lake Ronkonkoma",
+          "Lake Grove",
+          "Nesconset",
+          "Port Jefferson Station",
+          "St. James",
+          "Bellport",
+          "Blue Point",
+          "Miller Place",
+          "Patchogue"
+        ],
+        "zipCodes": [
+          "11738",
+          "11742",
+          "11784",
+          "11763",
+          "11720",
+          "11741",
+          "11727",
+          "11779",
+          "11755",
+          "11767",
+          "11776",
+          "11780",
+          "11713",
+          "11715",
+          "11764",
+          "11772"
+        ]
+      },
+      {
+        "locationId": "queens",
+        "name": "Queens",
+        "region": "Northeast Queens & Nassau border",
+        "towns": [
+          "Flushing",
+          "Auburndale",
+          "College Point",
+          "Whitestone",
+          "Bayside",
+          "Little Neck",
+          "Douglaston",
+          "Oakland Gardens",
+          "Fresh Meadows",
+          "Kew Gardens Hills",
+          "Corona",
+          "East Elmhurst",
+          "Jackson Heights",
+          "Elmhurst",
+          "Rego Park",
+          "Forest Hills",
+          "Woodside",
+          "Maspeth",
+          "Middle Village",
+          "Hollis",
+          "Bellerose",
+          "Queens Village",
+          "Jamaica",
+          "Jamaica Estates",
+          "Briarwood"
+        ],
+        "zipCodes": [
+          "11358",
+          "11354",
+          "11355",
+          "11356",
+          "11357",
+          "11360",
+          "11361",
+          "11362",
+          "11363",
+          "11364",
+          "11365",
+          "11366",
+          "11367",
+          "11368",
+          "11369",
+          "11370",
+          "11372",
+          "11373",
+          "11374",
+          "11375",
+          "11377",
+          "11378",
+          "11379",
+          "11423",
+          "11426",
+          "11427",
+          "11432",
+          "11435"
+        ]
+      },
+      {
+        "locationId": "vestal",
+        "name": "Vestal",
+        "region": "Broome County, Southern Tier",
+        "towns": [
+          "Vestal",
+          "Endicott",
+          "Endwell",
+          "Johnson City",
+          "Binghamton"
+        ],
+        "zipCodes": [
+          "13850",
+          "13760",
+          "13790",
+          "13903",
+          "13905"
+        ]
+      }
+    ]
+  },
+  "hours": {
+    "title": "Store Hours",
+    "description": "Hours vary slightly by location — confirm holiday and Sunday hours with your nearest store before visiting.",
+    "cards": [
+      {
+        "locationId": "farmingville",
+        "name": "Farmingville",
+        "primary": "Mon–Sat: 11AM–8PM",
+        "secondary": "Sunday: call store to confirm"
+      },
+      {
+        "locationId": "queens",
+        "name": "Queens",
+        "primary": "Mon–Sat: 11AM–8PM",
+        "secondary": "Sunday: call store to confirm"
+      },
+      {
+        "locationId": "vestal",
+        "name": "Vestal",
+        "primary": "Mon–Sat: 11AM–7PM",
+        "secondary": "Sunday: call store to confirm"
+      }
+    ]
+  },
+  "gettingHere": {
+    "title": "Getting Here",
+    "description": "Three storefronts across New York.",
+    "cards": [
+      {
+        "number": "01",
+        "name": "Farmingville — 2400 N Ocean Ave",
+        "address": "2400 N Ocean Ave, Farmingville, NY 11738",
+        "description": "Located on N Ocean Ave (County Road 83) in Farmingville, easily reached from the William Floyd Pkwy and Long Island Expressway corridor. On-site parking is available."
+      },
+      {
+        "number": "02",
+        "name": "Queens — 162-20 Northern Blvd",
+        "address": "162-20 Northern Blvd, Queens, NY 11358",
+        "description": "Located on Northern Blvd in the Flushing/Auburndale area of Queens, convenient to the surrounding Northeast Queens neighborhoods."
+      },
+      {
+        "number": "03",
+        "name": "Vestal — 4535 Vestal Road",
+        "address": "4535 Vestal Road, Vestal, NY 13850",
+        "description": "Located on Vestal Road in Vestal, serving Broome County and the greater Southern Tier region."
+      }
+    ]
+  },
+  "beforeVisit": {
+    "title": "Before You Visit",
+    "description": "A few things worth knowing before you stop by any Canna Blooms location.",
+    "cards": [
+      {
+        "title": "Valid Government ID Required",
+        "description": "Canna Blooms is a recreational dispensary. A valid, government-issued photo ID showing you are 21 or older is required for every pickup and delivery."
+      },
+      {
+        "title": "Pickup & Delivery",
+        "description": "Order ahead for in-store pickup or check availability for delivery to your area. Valid ID is checked at pickup and at the door for delivery."
+      },
+      {
+        "title": "21+ Only",
+        "description": "Canna Blooms products and services are intended for adults 21 and older only, in accordance with New York State law."
+      }
+    ]
+  },
+  "licenses": {
+    "title": "Licensed by New York State",
+    "description": "Canna Blooms operates as a New York State licensed cannabis retailer. License numbers are displayed in-store and on request.",
+    "cards": [
+      {
+        "locationId": "farmingville",
+        "name": "Farmingville",
+        "license": "",
+        "address": "2400 N Ocean Ave, Farmingville, NY 11738"
+      },
+      {
+        "locationId": "queens",
+        "name": "Queens",
+        "license": "",
+        "address": "162-20 Northern Blvd, Queens, NY 11358"
+      },
+      {
+        "locationId": "vestal",
+        "name": "Vestal",
+        "license": "",
+        "address": "4535 Vestal Road, Vestal, NY 13850"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Straight From Our Google Reviews",
+    "description": "Rated 4.9 by 3,200+ customers across our locations.",
+    "items": [
+      {
+        "quote": "Amazing quality grinder. Super smooth and arrived quickly.",
+        "author": "Marcus T.",
+        "location": ""
+      },
+      {
+        "quote": "Rolling tray looks premium and shipping was very fast.",
+        "author": "Alina R.",
+        "location": ""
+      },
+      {
+        "quote": "Great smell-proof bag. Excellent quality.",
+        "author": "Devon K.",
+        "location": ""
+      },
+      {
+        "quote": "Glass pipe exceeded expectations.",
+        "author": "Priya S.",
+        "location": ""
+      }
+    ]
+  },
+  "firstVisit": {
+    "title": "Visiting for the First Time?",
+    "description": "Here's what to know before you stop by.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Bring a Valid ID",
+        "description": "Every guest must be 21 or older with a valid government-issued photo ID. We check every guest, every visit."
+      },
+      {
+        "number": "02",
+        "title": "Know Before You Go",
+        "description": "Check store hours and, where available, order ahead online for pickup to save time in-store."
+      },
+      {
+        "number": "03",
+        "title": "Ask Our Team",
+        "description": "Our staff can help first-time and experienced customers alike find the right products for what they're looking for."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need to be 21 to shop at Canna Blooms?",
+      "answer": "Yes. Canna Blooms is a recreational dispensary and New York State law requires all customers to be 21 years of age or older with valid government-issued photo ID."
+    },
+    {
+      "question": "What ID is required?",
+      "answer": "A valid, government-issued photo ID showing you are 21 or older — such as a driver's license, state ID or passport — is required for every visit, pickup and delivery."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "Canna Blooms operates three New York locations — Farmingville, Queens and Vestal — each serving its surrounding neighborhoods. See the Neighborhoods We Serve section for details, or contact your nearest store."
+    },
+    {
+      "question": "What are your store hours?",
+      "answer": "Farmingville and Queens are open Monday through Saturday, 11AM–8PM. Vestal is open Monday through Saturday, 11AM–7PM. Please call your nearest store to confirm Sunday and holiday hours."
+    },
+    {
+      "question": "Can I order ahead for pickup?",
+      "answer": "Where available, you can browse Canna Blooms' online menu and place an order ahead of your visit. Contact your nearest store for current ordering options."
+    },
+    {
+      "question": "Is Canna Blooms a licensed dispensary?",
+      "answer": "Yes. Canna Blooms operates as a New York State licensed cannabis retailer across all of its locations."
+    }
+  ],
+  "trustSection": {
+    "title": "Rooted in New York. Built for Everyday Use.",
+    "description": "Canna Blooms operates three licensed New York State dispensary locations — Farmingville, Queens and Vestal — offering a curated selection of flower, edibles, vapes and premium accessories. We're an independent, community-focused retailer rated 4.9 by 3,200+ customers, and every order is handled by a team that cares about getting it right."
+  },
+  "footer": {
+    "legalNote": "For use by adults 21+. Keep out of reach of children. Cannabis products have not been analyzed or approved by the FDA. Please consume responsibly.",
+    "copyright": "© 2026 Canna Blooms. All rights reserved.",
+    "privacyPolicyLabel": "Privacy Policy",
+    "privacyPolicyUrl": "https://www.cannablooms.com/privacy-policy"
+  }
+}

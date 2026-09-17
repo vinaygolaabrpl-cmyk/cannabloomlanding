@@ -1,0 +1,92 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'responsive' as r;
+
+.section {
+  @include m.section-padding;
+
+  &--cream {
+    background: v.$cream;
+  }
+
+  &--white {
+    background: v.$white;
+  }
+
+  &__inner {
+    @include m.container;
+  }
+
+  &__header {
+    max-width: 620px;
+    margin-bottom: 28px;
+  }
+
+  &__eyebrow {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: v.$primary-green;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    @include m.section-heading;
+  }
+
+  &__desc {
+    @include m.section-desc;
+  }
+
+  &__footnote {
+    margin-top: 22px;
+    font-size: 0.82rem;
+    font-style: italic;
+    color: v.$text-muted;
+    text-align: center;
+  }
+}
+
+.grid-3 {
+  @include r.grid-3;
+}
+
+.grid-reviews {
+  @include r.grid-4;
+}
+
+.faq-list {
+  max-width: 760px;
+}
+
+// ---- Neighborhood card (slightly denser text block) ----
+.neighborhood-card {
+  @include m.card;
+  @include m.card-hover;
+  padding: 20px 22px;
+
+  &__region {
+    display: block;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: v.$primary-green;
+    margin-bottom: 6px;
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: v.$text-dark;
+  }
+
+  &__towns {
+    margin-top: 8px;
+    font-size: 0.82rem;
+    line-height: 1.65;
+    color: v.$text-muted;
+  }
+}
