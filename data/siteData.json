@@ -69,17 +69,17 @@
       "name": "Farmingville",
       "region": "Serving Suffolk County & Long Island",
       "address": "2400 N Ocean Ave, Farmingville, NY 11738",
-      "phone": "",
+      "phone": "(631) 350-0880",
       "email": "sales@cannablooms.com",
-      "license": "",
+      "license": "OCM-RETL-25-000401",
       "hours": {
-        "mainDays": "Mon–Sat 11AM–8PM",
-        "sunday": "Call store to confirm Sunday hours"
+        "mainDays": "Sun-Thur 09AM-12AM",
+        "sunday": "Fri-Sat 09AM-01PM"
       },
       "deliveryHours": "",
       "description": "Our flagship Farmingville showroom, featuring a curated selection of flower, edibles, vapes and accessories.",
       "reviewsLabel": "",
-      "visitUrl": "https://www.cannablooms.com/locations/farmingville"
+      "visitUrl": "/stores/small-leaf-79"
     },
     {
       "id": "queens",
@@ -87,17 +87,17 @@
       "name": "Queens",
       "region": "Serving Flushing, Bayside & Northeast Queens",
       "address": "162-20 Northern Blvd, Queens, NY 11358",
-      "phone": "",
+      "phone": "(516) 331-2599",
       "email": "sales@cannablooms.com",
-      "license": "",
+      "license": "OCM-RETL-24-000175",
       "hours": {
-        "mainDays": "Mon–Sat 11AM–8PM",
-        "sunday": "Call store to confirm Sunday hours"
+        "mainDays": "Sun-Thur 09AM-11PM",
+        "sunday": "Fri-Sat 09AM-11PM"
       },
       "deliveryHours": "",
       "description": "A convenient Northern Blvd storefront serving Flushing, Bayside and the surrounding Queens neighborhoods.",
       "reviewsLabel": "",
-      "visitUrl": "https://www.cannablooms.com/locations/queens"
+      "visitUrl": "https://cannablooms.com/stores/canna-blooms-queens"
     },
     {
       "id": "vestal",
@@ -105,17 +105,17 @@
       "name": "Vestal",
       "region": "Serving Broome County & the Southern Tier",
       "address": "4535 Vestal Road, Vestal, NY 13850",
-      "phone": "",
+      "phone": "(607) 260-0002",
       "email": "sales@cannablooms.com",
-      "license": "",
+      "license": "OCM-RETL-25-000446",
       "hours": {
-        "mainDays": "Mon–Sat 11AM–7PM",
-        "sunday": "Call store to confirm Sunday hours"
+        "mainDays": "Sun-Thur 09AM-09PM",
+        "sunday": " Fri-Sat 09AM-09PM"
       },
       "deliveryHours": "",
       "description": "Our Southern Tier location on Vestal Road, bringing lab-tested New York cannabis to Broome County.",
       "reviewsLabel": "",
-      "visitUrl": "https://www.cannablooms.com/locations/vestal"
+      "visitUrl": "https://cannablooms.com/stores/canna-blooms-vestal"
     }
   ],
   "ratingStrip": {
@@ -266,20 +266,20 @@
       {
         "locationId": "farmingville",
         "name": "Farmingville",
-        "primary": "Mon–Sat: 11AM–8PM",
-        "secondary": "Sunday: call store to confirm"
+        "primary": "Sun-Thru: 12PM-8PM",
+        "secondary": "Saturday-Sunday : call store to confirm"
       },
       {
         "locationId": "queens",
         "name": "Queens",
-        "primary": "Mon–Sat: 11AM–8PM",
-        "secondary": "Sunday: call store to confirm"
+        "primary": "Sun-Thru: 09AM-11PM",
+        "secondary": "Saturday-Sunday : call store to confirm"
       },
       {
         "locationId": "vestal",
         "name": "Vestal",
-        "primary": "Mon–Sat: 11AM–7PM",
-        "secondary": "Sunday: call store to confirm"
+        "primary": "Sun-Thru: 09AM-09PM",
+        "secondary": "Saturday-Sunday : call store to confirm"
       }
     ]
   },
@@ -411,7 +411,7 @@
     },
     {
       "question": "What are your store hours?",
-      "answer": "Farmingville and Queens are open Monday through Saturday, 11AM–8PM. Vestal is open Monday through Saturday, 11AM–7PM. Please call your nearest store to confirm Sunday and holiday hours."
+      "answer": "Farmingville and Queens are open Monday through Thrusday, 09AM-12AM. Queens are open Monday through Thrusday, 09AM-11PM. Vestal is open Monday through Saturday, 09AM-12PM. Please call your nearest store to confirm Saturday-Sunday and holiday hours."
     },
     {
       "question": "Can I order ahead for pickup?",

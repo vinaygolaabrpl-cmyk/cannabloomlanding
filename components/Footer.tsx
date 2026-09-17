@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="site-footer__inner">
         <Image
-          src={site.logo.src}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${site.logo.src}`}
           alt={site.logo.alt}
           width={124}
           height={82}

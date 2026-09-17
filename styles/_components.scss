@@ -85,13 +85,13 @@
   &__logo {
     display: flex;
     justify-content: center;
-    margin-bottom: 18px;
+    margin-bottom: 0px;
   }
 
   &__logo-img {
     height: auto;
     width: auto;
-    max-width: 132px;
+    max-width: 260px;
   }
 
   &__eyebrow {
@@ -311,7 +311,7 @@
 }
 
 // ---- Google review card ----
-.review-card {
+.review-card {margin: 0;
   @include m.card;
   padding: 20px 22px;
   border-left: 3px solid v.$primary-green;
@@ -477,3 +477,4 @@
     }
   }
 }
+.hero__inner.pt-0{padding-top: 0 !important;}

@@ -15,7 +15,7 @@ export default function FAQ() {
   return (
     <section id="faq" className="section section--cream" aria-labelledby="faq-title">
       <div className="section__inner">
-        <div className="section__header">
+        <div className="section__header  text-center m-auto ">
           <h2 id="faq-title" className="section__title">
             Common Questions
           </h2>

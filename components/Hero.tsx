@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaCircle, FaStar } from 'react-icons/fa';
+import { FaCircle, FaIdCard, FaStar } from 'react-icons/fa';
 import { FiMapPin, FiClock, FiPhone } from 'react-icons/fi';
 import { siteData } from '@/lib/data';
 
@@ -8,10 +8,10 @@ export default function Hero() {
 
   return (
     <section className="hero" aria-label="Introduction">
-      <div className="hero__inner">
+      <div className="hero__inner pt-0">
         <div className="hero__logo">
           <Image
-            src={site.logo.src}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${site.logo.src}`}
             alt={site.logo.alt}
             width={132}
             height={88}
@@ -55,7 +55,7 @@ export default function Hero() {
                   <div className="location-card__meta-row">
                     <FiClock className="location-card__icon" aria-hidden="true" />
                     <span>
-                      {location.hours.mainDays} &middot; {location.hours.sunday}
+                      {location.hours.mainDays} &nbsp; &middot; {location.hours.sunday}
                     </span>
                   </div>
                   {location.phone && (
@@ -64,10 +64,10 @@ export default function Hero() {
                       <span>{location.phone}</span>
                     </div>
                   )}
-                  {location.reviewsLabel && (
+                  {location.license && (
                     <div className="location-card__meta-row">
-                      <FaStar className="location-card__icon" aria-hidden="true" />
-                      <span>{location.reviewsLabel}</span>
+                      <FaIdCard className="location-card__icon" aria-hidden="true" />
+                      <span>{location.license}</span>
                     </div>
                   )}
                 </div>

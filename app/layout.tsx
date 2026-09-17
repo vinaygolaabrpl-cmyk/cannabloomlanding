@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { siteData } from '@/lib/data';
 import '@/styles/style.scss';
+import '@/styles/tailwind.css';
 
 const { seo, site } = siteData;
 

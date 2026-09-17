@@ -5,8 +5,8 @@ export default function TrustSection() {
 
   return (
     <section className="section section--white" aria-labelledby="trust-title">
-      <div className="trust-section__wrap">
-        <div className="trust-section__box">
+      <div className="trust-section__wrap ">
+        <div className="trust-section__box m-auto">
           <h2 id="trust-title" className="trust-section__title">
             {trustSection.title}
           </h2>
