@@ -79,7 +79,7 @@
       "deliveryHours": "",
       "description": "Our flagship Farmingville showroom, featuring a curated selection of flower, edibles, vapes and accessories.",
       "reviewsLabel": "",
-      "visitUrl": "/stores/small-leaf-79"
+      "visitUrl": "https://cannablooms.com/stores/small-leaf-79"
     },
     {
       "id": "queens",
@@ -332,19 +332,19 @@
       {
         "locationId": "farmingville",
         "name": "Farmingville",
-        "license": "",
+        "license": "OCM-RETL-25-000401",
         "address": "2400 N Ocean Ave, Farmingville, NY 11738"
       },
       {
         "locationId": "queens",
         "name": "Queens",
-        "license": "",
+        "license": "OCM-RETL-24-000175",
         "address": "162-20 Northern Blvd, Queens, NY 11358"
       },
       {
         "locationId": "vestal",
         "name": "Vestal",
-        "license": "",
+        "license": "OCM-RETL-25-000446",
         "address": "4535 Vestal Road, Vestal, NY 13850"
       }
     ]
