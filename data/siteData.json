@@ -74,7 +74,7 @@
       "license": "OCM-RETL-25-000401",
       "hours": {
         "mainDays": "Sun-Thur 09AM-12AM",
-        "sunday": "Fri-Sat 09AM-01PM"
+        "sunday": "Fri-Sat 09AM-01AM"
       },
       "deliveryHours": "",
       "description": "Our flagship Farmingville showroom, featuring a curated selection of flower, edibles, vapes and accessories.",
@@ -126,7 +126,7 @@
     "locations": "3",
     "locationsLabel": "NY Locations",
     "sinceLabel": "Independent Retailer Since",
-    "since": "2016"
+    "since": "2025"
   },
   "neighborhoods": {
     "title": "Neighborhoods We Serve",
@@ -261,25 +261,25 @@
   },
   "hours": {
     "title": "Store Hours",
-    "description": "Hours vary slightly by location — confirm holiday and Sunday hours with your nearest store before visiting.",
+    "description": "Hours vary slightly by location — confirm  Saturday, Sunday and holiday hours with your nearest store before visiting.",
     "cards": [
       {
         "locationId": "farmingville",
         "name": "Farmingville",
-        "primary": "Sun-Thru: 12PM-8PM",
-        "secondary": "Saturday-Sunday : call store to confirm"
+        "primary": "Sun-Thru: 09AM-12AM",
+        "secondary": "Saturday-Sunday : 09AM-01AM"
       },
       {
         "locationId": "queens",
         "name": "Queens",
         "primary": "Sun-Thru: 09AM-11PM",
-        "secondary": "Saturday-Sunday : call store to confirm"
+        "secondary": "Saturday-Sunday : 09AM-11PM"
       },
       {
         "locationId": "vestal",
         "name": "Vestal",
         "primary": "Sun-Thru: 09AM-09PM",
-        "secondary": "Saturday-Sunday : call store to confirm"
+        "secondary": "Saturday-Sunday : 09AM-09PM"
       }
     ]
   },
@@ -411,7 +411,7 @@
     },
     {
       "question": "What are your store hours?",
-      "answer": "Farmingville and Queens are open Monday through Thrusday, 09AM-12AM. Queens are open Monday through Thrusday, 09AM-11PM. Vestal is open Monday through Saturday, 09AM-12PM. Please call your nearest store to confirm Saturday-Sunday and holiday hours."
+      "answer": "Farmingville and Queens are open Monday through Thrusday, 09AM-12AM. Queens are open Monday through Thrusday, 09AM-11PM. Vestal is open Monday through Saturday, 09AM-09PM. Please call your nearest store to confirm Saturday-Sunday and holiday hours."
     },
     {
       "question": "Can I order ahead for pickup?",
